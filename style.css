@@ -1,0 +1,341 @@
+@font-face{
+    font-family: Seasons;
+    src:url(./lucky-seasons/otf/Seasons.otf);
+    
+   }
+   
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body{
+    background-color: black;
+}
+
+#character{
+    background-color: white;
+}
+
+#centred{
+    width:100%;
+    display: block;
+    height:80px;
+}
+
+.navbar-expand-lg{
+    background: black;
+    color:white;
+    height:60px;
+}
+
+.active{
+    position: absolute;
+    left:100px;
+    top:-10px;
+    color:#DAB1DA !important;
+    font-family: Seasons;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+#editthis{
+    position: absolute;
+    right:80px;
+    top:-10px;
+    color:#DAB1DA;
+    font-family: Seasons;
+    font-size: 30px;
+    letter-spacing: 2px;
+    opacity:0.7;
+    
+}
+
+.s{
+    text-align: center;
+    max-width:100%;
+    width:100%;
+    background-color: black;
+    height:80px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top:0;
+    display: block;
+    
+}
+
+#rounded{
+    border-radius: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#character{
+    position: relative;
+}
+
+#storer{
+    display: flex;
+}
+
+#chname{
+    position: absolute;
+    top:30px;
+    right:20px;
+    width:450px;
+    height:30px;
+    display: inline;
+
+}
+
+#star{
+    display: inline;
+    padding-bottom: 11px;
+    /*position: absolute;*/
+    
+}
+
+
+#characterName{
+    display: inline;
+    font-family: Seasons;
+    font-size: 30px;
+}
+
+.bground{
+  position: relative;
+  opacity: 0.8;
+  width:100%;
+}
+
+.char{
+    position: absolute;
+    top:30px;
+    left:300px;
+    float: left;
+    height:540px;
+
+}
+
+#info{
+    position: absolute;
+    top:80px;
+    right:20px;
+    width:470px;
+    background: linear-gradient(#720058,#5b0046,#2e0023);
+    
+}
+
+#information{
+    display:flex;
+    position: absolute;
+    top:140px;
+    right:20px;
+    width:470px;
+    background: linear-gradient(#2e0023,#22001a);
+    color:white;
+    padding: 20px;
+    border:10px solid #5b0046;
+
+}
+
+#apply{
+    position: absolute;
+    top:500px;
+    right:20px;
+    width:470px;
+    background: linear-gradient(#720058,#5b0046,#2e0023);
+
+}
+
+#right{
+    position: absolute;
+    top:160px;
+    right:15px;
+    height:130px; 
+    width:250px;
+}
+
+#left{
+    position: absolute;
+    top:160px;
+    left:15px;
+    height:130px; 
+    width:250px;
+
+}
+
+#play{
+    position: absolute;
+    top:510px;
+    right:20px;
+    width:470px;
+   
+}
+
+.btn{
+    background: linear-gradient(#720058,#5b0046,#2e0023);
+    color:white;
+}
+
+#next{
+    position: absolute;
+    display: none;
+    right:80px;
+    top:20px;
+}
+
+#next_left{
+  position: absolute;
+  top:20px;
+  display: none;
+}
+#stats{
+    width:40%;
+}
+
+#bground{
+    
+}
+
+#headings{
+    width:50%;
+    height:292px;
+}
+
+#colour{
+    color:#CBCBCB;
+}
+#nut{
+    max-width:100%;
+    margin: 0;
+}
+
+#title{
+    color: white;
+    text-align: center;
+}
+
+#rest{
+    position: relative;
+    background-color: black;
+}
+
+
+
+@media only screen and (max-width:1120px){
+   /* #info{
+        position: relative;
+        width:100%;
+        margin: 0;
+        padding: 0;
+        right:0;
+        top:0;
+    }
+
+    #information{
+        position: relative;
+        top:-8px;
+        right:0;
+        width:100%;
+        margin-top: 0;
+        
+    }*/
+    .char{
+        left:2%;
+        height:80%;
+    }
+    .active{
+        left:10%;
+        margin-left: 0px;
+    }
+    #editthis{
+        font-size: 30px;
+        letter-spacing: 1px;
+        right:15%;
+
+    }
+}
+
+@media only screen and (max-width:840px){
+    #info{
+        position: relative;
+        width:100%;
+        margin: 0;
+        padding: 0;
+        right:0;
+        top:0;
+    }
+
+    #information{
+        position: relative;
+        top:-8px;
+        right:0;
+        width:100%;
+        margin-top: 0;
+        
+    }
+
+    #next{
+        right:20px;
+    }
+
+    #chname{
+        width:50%;
+    }
+    .char{
+        position: absolute;
+        top:2%;
+        height:80%;
+    }
+    .active{
+        left:10%;
+        margin-left: 0px;
+    }
+    #editthis{
+        font-size: 30px;
+        letter-spacing: 2px;
+        right:15%;
+
+    }
+   #character{
+      max-height: 425px;
+      height:20%;
+   }
+
+   #play{
+    position: relative;
+    top:-8px;
+    right:0;
+    width:100%;
+   }
+}
+
+@media only screen and (max-width:700px){
+    .char{
+      height:60%;
+      top:0;
+    }
+  }
+
+@media only screen and (max-width:560px){
+    .char{
+      height:50%;
+      top:0;
+    }
+  }
+
+@media only screen and (max-width:440px){
+  .char{
+    height:40%;
+    top:0;
+  }
+}
+
+@media only screen and (max-width:325px){
+    .active,#editthis{
+        letter-spacing: 1px;
+    }
+}

@@ -1,0 +1,110 @@
+@font-face{
+    font-family: Seasons;
+    src:url(./lucky-seasons/otf/Seasons.otf);
+    
+   }
+   
+
+html, body {
+    margin: 0;
+    height: 100%;
+    background: black;
+}
+
+#centred{
+    width:100%;
+    display: block;
+    height:80px;
+}
+
+.navbar-expand-lg{
+    background: black;
+    color:white;
+    height:60px;
+}
+
+.s{
+    text-align: center;
+    max-width:100%;
+    width:100%;
+    background-color: black;
+    height:80px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top:0;
+    display: block;
+    
+}
+
+#rounded{
+    border-radius: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.actives{
+    position: absolute;
+    left:100px;
+    top:-10px;
+    color:#DAB1DA !important;
+    font-family: Seasons;
+    letter-spacing: 2px;
+    font-size: 30px;
+    opacity: 0.7;
+}
+
+#editthis{
+    position: absolute;
+    right:80px;
+    top:-10px;
+    color:#DAB1DA;
+    font-family: Seasons;
+    font-size: 30px;
+    letter-spacing: 2px;
+    
+}
+
+#yellow{
+    color: yellow;
+}
+
+#styled{
+    font-family: Seasons;
+    letter-spacing: 2px;
+}
+
+#purple{
+    font-family: Seasons;
+    letter-spacing: 2px;
+    color:black;
+}
+#carouselExampleDark{
+    
+
+}
+
+@media only screen and (max-width:840px){
+    .actives{
+        left:10%;
+        margin-left: 0px;
+    }
+    #editthis{
+        font-size: 30px;
+        letter-spacing: 2px;
+        right:15%;
+
+    }
+
+    #styled{
+        
+    }
+
+}
+
+@media only screen and (max-width:325px){
+    .active,#editthis{
+        letter-spacing: 1px;
+    }
+}
