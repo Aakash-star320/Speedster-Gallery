@@ -1,6 +1,7 @@
 @font-face{
     font-family: Seasons;
-    src:url(./lucky-seasons/otf/Seasons.otf);
+    src:url(./lucky-seasons/LuckySeasonsRegular.woff),
+    url(./lucky-seasons/LuckySeasonsRegular.woff2);
     
    }
    
